@@ -1,0 +1,38 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+.nav{
+    display:flex;
+    justify-content: space-between;
+    margin: 20px;
+    background-color: aquamarine;
+    height: 100px;
+    
+}
+.img{
+    width: 20px;
+    height: 20px;
+}
+a,.lgn,sgn{
+    background-color: rgb(89, 183, 152);
+    font: size 40px;
+    border:5px solid pink;
+    border-radius: 12px;
+    text-decoration: none;
+
+}
+a:hover{
+    background-color: bisque;
+    color: rgb(239, 146, 7);
+}
+.main{
+    display: flex;
+    border:3px solid blueviolet;
+    justify-content: space-between;
+    margin: 20px;
+    height:300px;
+    background-color: azure;
+}
